@@ -16,7 +16,7 @@ int main()
    int p=fork();
    if(p==0)
     {
-      printf("child is printing");
+      printf("child is printing\n");
    	for(int i=0;i<n;i++)
         {
            if(arr[i]%2==0) printf("%d\n",arr[i]);
@@ -24,7 +24,7 @@ int main()
    }
     if(p>0)
     {
-      printf("parent is printing ");
+      printf("parent is printing \n");
    	for(int i=0;i<n;i++)
         {
            if(arr[i]%2!=0) printf("%d\n",arr[i]);
