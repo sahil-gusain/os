@@ -23,7 +23,7 @@ int main()
     		{
     			struct FCFS temp = process[i];
     			process[i] = process[j];
-    			process[j]=process[i];
+    			process[j]=temp;
 			}
 		}
 	}
