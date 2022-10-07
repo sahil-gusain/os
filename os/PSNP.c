@@ -33,7 +33,7 @@ int main()
         {
             struct PSNP temp = process[i];
     		process[i] = process[i+1];
-    		process[i+1]=process[i];
+    		process[i+1]=temp;
         }
     }
 	int j=0;
