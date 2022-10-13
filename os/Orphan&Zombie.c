@@ -20,7 +20,7 @@ int main()
 	    //exit(0);
 	//}
 	//else{
-	//printf("Zombie process\n");
+	//printf("Orphan Process\n");
 	//printf("child procces is still running \n ");
 	//}
 }
